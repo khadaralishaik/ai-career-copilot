@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Handshake AI Task Alert",
+  "version": "1.0.0",
+  "description": "Alerts you when a Handshake AI dashboard shows available work.",
+  "permissions": ["storage", "notifications", "tabs"],
+  "host_permissions": ["https://*.joinhandshake.com/*"],
+  "action": {
+    "default_title": "Handshake Task Alert",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.joinhandshake.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {}
+}
