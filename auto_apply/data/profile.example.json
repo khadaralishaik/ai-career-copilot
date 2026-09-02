@@ -1,0 +1,16 @@
+{
+  "full_name": "YOUR NAME",
+  "first_name": "YOUR FIRST NAME",
+  "last_name": "YOUR LAST NAME",
+  "email": "you@example.com",
+  "phone": "+91XXXXXXXXXX",
+  "location": "India",
+  "linkedin": "",
+  "github": "",
+  "portfolio": "",
+  "work_authorized": true,
+  "requires_sponsorship": false,
+  "years_experience": 0,
+  "skills": [],
+  "resume_path": "./data/resume.pdf"
+}
