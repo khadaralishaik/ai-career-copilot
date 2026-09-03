@@ -1,0 +1,8 @@
+.env
+data/profile.json
+data/resume.*
+data/applications.db
+data/screenshots/
+.venv/
+__pycache__/
+*.pyc

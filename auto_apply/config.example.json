@@ -1,0 +1,23 @@
+{
+  "keywords": ["Python Developer", "C++ Developer", "AI Engineer", "Software Engineer"],
+  "locations": ["Remote", "India"],
+  "min_match_score": 65,
+  "excluded_companies": [],
+  "excluded_title_words": ["senior", "staff", "principal", "director"],
+  "max_applications_per_run": 5,
+  "auto_submit": false,
+  "profile": {
+    "full_name": "YOUR NAME",
+    "email": "you@example.com",
+    "phone": "+91XXXXXXXXXX",
+    "location": "India",
+    "linkedin": "",
+    "github": "",
+    "portfolio": "",
+    "work_authorized": true,
+    "requires_sponsorship": false,
+    "resume_path": "./data/resume.pdf",
+    "years_experience": 0,
+    "skills": ["Python", "C++", "FastAPI", "React", "Playwright"]
+  }
+}
